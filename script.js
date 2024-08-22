@@ -14,7 +14,7 @@ if (startBtn) {
 
 //Second Page
 
-if(location.pathname == location.pathname == '/todolist/page2.html' ){
+if(location.pathname == location.pathname.includes(/page2.html')){
 function enter(event) {
     const inputValue = textInput.value;
     if (event.key === "Enter" || event.type == "click") {
